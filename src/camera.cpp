@@ -356,6 +356,7 @@ bool Camera::Device::close()
 
 bool Camera::Device::update()
 {
+	std::cout << "Say cheese" << std::endl;
 	// Get new image
 	if(!m_inputProvider->next(m_image)) {
 		m_image = cv::Mat();
