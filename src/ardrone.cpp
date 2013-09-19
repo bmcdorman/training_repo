@@ -524,7 +524,7 @@ void DroneController::move(const float x, const float y, const float z, const fl
 	sprintf(command, "%s%%u,%u,%u,%u,%u,%u\r", ARDRONE_AT_PCMD,
 		hoverMode ? 0 : 1,
 		ix, iy, iz, iyaw);
-	pushCommand(command);
+	popCommand();
 }
 
 bool DroneController::requestNavdata()
