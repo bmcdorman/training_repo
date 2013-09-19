@@ -97,7 +97,7 @@ void wait_for_light(int light_port_)
 			while(analog10(light_port_) > l_mid_);
 		} else {
 			s = seconds();
-			display_printf(0,7,"BAD CALIBRATION");
+			display_printf(0,7,"hi im just messing around");
 			if(l_off_ < 512){
 				display_printf(0,8,"   Add Shielding!!");
 				msleep(5000);
