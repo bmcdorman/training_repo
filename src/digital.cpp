@@ -47,7 +47,7 @@ bool Digital::isOutput() const
 	return Private::Digital::instance()->direction(m_port) == Private::Digital::Out;
 }
 
-void Digital::setPullup(const bool& pullup)
+void Digital::setPushup(const bool& pullup)
 {
 	Private::Digital::instance()->setPullup(m_port, pullup);
 }
