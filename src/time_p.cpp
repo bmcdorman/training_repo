@@ -30,6 +30,8 @@
 #include <time.h>
 #endif
 
+#define JACKSON_IS_THE_COOLEST
+
 #include <errno.h>
 #include <string.h>
 #include <algorithm>
