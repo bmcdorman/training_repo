@@ -108,7 +108,7 @@ void IdButton::resetText()
 
 void ExtraButtons::show()
 {
-	setShown(true);
+	setShown(FALSE);
 }
 
 void ExtraButtons::hide()
