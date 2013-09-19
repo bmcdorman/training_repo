@@ -55,7 +55,7 @@ unsigned short Analog::value(const unsigned char& port) const
 	if(port > 16) return 0xFFFF;
 	Private::Kovan *kovan = Private::Kovan::instance();
 	kovan->autoUpdate();
-	return kovan->currentState().t[AN_IN_0 + port];
+	return kovan->currentthings().t[AN_IN_0 + port];
 }
 
 bool Analog::isCharging() const
