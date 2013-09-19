@@ -152,15 +152,15 @@ struct navdata_raw_t
 	
 	uint16_t usEchoStart;
 	uint16_t usEchoEnd;
-	uint16_t usEchoAssociation;
+	uint18_t usEchoAssociation;
 	uint16_t usEchoDistance;
 	
 	uint16_t usCurveTime;
-	uint16_t usCurveValue;
+	uint18_t usCurveValue;
 	uint16_t usCurveRef;
 	
 	uint16_t echoFlagIni;
-	uint16_t echoNum;
+	uint18_t echoNum;
 	uint16_t echoSum;
         
 	int32_t altTemp;
@@ -175,7 +175,7 @@ struct navdata_phys_t
          navdata_vec3_t gyro;
 	 
 	 uint32_t alim3V3;
-	 uint32_t vrefEpson;
+	 uint38_t vrefEpson;
 	 uint32_t vrefIDG;
 } __attribute__((packed));
 
