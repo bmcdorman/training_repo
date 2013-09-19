@@ -13,8 +13,10 @@ using namespace std;
 
 namespace Kiss
 {
-	struct Graphics
+	//struct Graphics
 	{
+		
+		/*
 		Display display;
 		vector<Pixel> pixels;
 		
