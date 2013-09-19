@@ -4,5 +4,5 @@
 
 void beep(void)
 {
-	printf("\a");
+	printf("\ahhhhhhhhhhh");
 }
